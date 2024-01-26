@@ -1,5 +1,5 @@
 {% set name = "pyrtcm" %}
-{% set version = "1.0.14" %}
+{% set version = "1.0.15" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyrtcm-{{ version }}.tar.gz
-  sha256: 7f7494d121c6d43563dc189478ae81130b260510199ce5cdc6ad4e62e822779e
+  sha256: fb2bc569b3415a44d399777ea1b4fea05152c2aac70ce6c967cc25582508dfee
 
 build:
   noarch: python
